@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sudoku Solver</h1>
+
+      <!-- Sudoku Grid -->
+      <div class="sudoku-grid">
+        <!-- The grid will contain 9x9 cells -->
+        <table id="sudoku-board">
+          <tbody>
+            <!-- 9 rows each with 9 cells -->
+            <!-- We'll use JavaScript to fill in the board -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="controls">
+        <button onclick="solveSudoku()">Solve Sudoku</button>
+        <button onclick="resetBoard()">Reset Board</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
